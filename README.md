@@ -1,6 +1,5 @@
 # ACIT2520 Term project - Reminder App
 
-**Students** Jiseong Yoon, Shaolong Yin, Xinyu Gong, Yangyi Jung <br>
 **Course** ACIT2520 Developing Web Applications <br>
 **Instructor** Armaan Dhanji <br>
 
@@ -30,61 +29,17 @@ email: cindy123@gmail.com / password: cindy123!
 
 ## Breakdown of work
 
-### 1st week (March 26th - April 1st)
-
-#### Shaolong Yin
-
-1. <Insert Some Task Here> - This task is responsible for xyz functionality.
-
-#### Jiseong Yoon
-
-1. <Insert Some Task Here> - This task is responsible for xyz functionality.
-
-#### Xinyu Gong
-
-1. install an delete function (only works with cindy...)
-
 #### Yangyi Jung
 
 1. Add `routes` directory and Edit `index.js` to find routes conveniently
 2. Change structure of `database`to match the passport starter code database structure
 3. Edit Authentication with email and password using `passport.js`
+4. Edit login function and update `reminder/index.ejs`
+5. Add logout in `auth_controller.js`
+6. Add admin ability
+7. Create `admin.ejs` to view admin functionality
+8. Update the navigation of `index.ejs` to show the changes for logged in users
+9. Update Bonus functionality (create a reminder with banner) in `reminder_controller.js`
+10. Implemented registration function using `fs`
 
----
-
-### 2nd week (April 2nd - April 8th)
-
-#### Shaolong Yin
-
-1. modified the admin.ejs page to properly identify admins.
-
-#### Jiseong Yoon
-
-1. <Insert Some Task Here> - This task is responsible for xyz functionality.
-
-#### Xinyu Gong
-
-1. install an update function (only works with cindy...)
-2. watch 2 hours videos from class about project
-
-#### Yangyi Jung
-
-1. Edit login function and update `reminder/index.ejs`
-2. Add logout in `auth_controller.js`
-3. Add admin ability
-4. Create `admin.ejs` to view admin functionality
-5. Update the navigation of `index.ejs` to show the changes for logged in users
-
----
-
-### 3rd week (April 9nd - April 15th)
-
-#### Xinyu Gong
-
-1. upload snippets from class for bonus
-
-#### Yangyi Jung
-
-1. Update Bonus functionality (create a reminder with banner) in `reminder_controller.js`
-2. Implemented registration function using `fs`
-   - reference : https://www.passportjs.org/tutorials/password/signup/
+- reference : https://www.passportjs.org/tutorials/password/signup/
